@@ -1,8 +1,8 @@
 let x = 1;
 while(x<=51){
-    document.writeln(parseInt(x));
+    document.write(parseInt(x));
     if(x<51){
-        document.writeln(",");
+        document.write(", ");
     }
     x=x+2;
 }
